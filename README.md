@@ -2,7 +2,7 @@
 
 ## Setup
 
-1. Clone both the **backend** and **frontend** templates.
+1. Clone both the [**backend**](https://github.com/SEB-PT-8/Unit03-Auth-Template-Backend) and [**frontend**](https://github.com/SEB-PT-8/Unit03-W05-D01-JWT-Authentication-Frontend) templates.
 2. Follow the setup instructions in each repository.
 3. Run both applications.
 4. Verify everything works by attempting to **log in**.
