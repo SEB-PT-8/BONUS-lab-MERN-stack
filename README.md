@@ -46,14 +46,14 @@ Create a new model called `Post` with the following fields:
 
 ### 4. Implement Routes
 
-#### 🔹 GET `/posts`
+#### GET `/posts`
 
 * Fetch all posts from the database
 * Use `try/catch` for error handling (console.log the error and send it back as a clean response)
 
 ---
 
-#### 🔹 POST `/posts`
+#### POST `/posts`
 
 * Allow only authenticated users (add `verifyToken` middleware)
 * Make sure to add the `id` of the logged in user as the owner of the post. **HINT**: the verifyToken will make it so `req.user` contains the object of the logged in user and `req.user._id` is the id of the logged in user
@@ -69,7 +69,7 @@ Create a new model called `Post` with the following fields:
 
 ---
 
-#### 🔹 PUT `/posts/:id`
+#### PUT `/posts/:id`
 
 * Only authenticated users can update
 * Users can **only update their own posts**
@@ -84,7 +84,7 @@ Create a new model called `Post` with the following fields:
 
 ---
 
-#### 🔹 DELETE `/posts/:id`
+#### DELETE `/posts/:id`
 
 * Only authenticated users can delete
 * Users can **only delete their own posts**
